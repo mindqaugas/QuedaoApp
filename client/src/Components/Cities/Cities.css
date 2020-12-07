@@ -1,0 +1,75 @@
+.cities-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+}
+.cities-media-screen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+.all-cities-title{
+    font-size: 46px;
+    font-family: 'Pacifico', cursive;
+    color: #3FD0D4;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cities-box-outer{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.cities-box{
+    position: relative;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+    box-shadow: 0px 2px 10px #ccc;
+    overflow: hidden;
+}
+.cities-foto{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.cities-foto-img{
+    width: 100%;
+    object-fit: cover;
+}
+.cities-name{
+    position:absolute;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+    display:flex;
+    text-align: center;
+   
+    padding: 24px;
+  
+
+justify-content: center;
+align-items: center; 
+}

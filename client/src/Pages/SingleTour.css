@@ -1,0 +1,95 @@
+.single-tour-slider{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+}
+.single-tour-image{
+    display: flex;
+    width: 100%;
+    height: calc(85vh - 130px);
+    object-fit: cover;
+    
+}
+.single-tour-slider-name{
+    position:absolute;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+    display:flex;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 30px;
+  
+
+justify-content: center;
+align-items: center;   
+}
+.single-tour-info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: #ddd ;
+    margin-bottom: 50px;
+}
+.single-tour-info-box{
+    width: 85%;
+    height: 800px;
+    position: absolute;
+    background-color: white;
+    top: -80px;
+    box-shadow: 0px 2px 10px #ccc;
+    display: flex;
+}
+.single-tour-info-box-left{
+display: flex;
+flex-direction: column;
+flex:1;
+}
+.single-tour-info-box-right{
+    display: flex;
+
+    padding-top: 40px;
+    width: 300px;
+    background-color: #29b3b7;
+    flex-direction: column;
+}
+.single-tour-name{
+    display: flex;
+    padding: 40px;
+}
+.single-tour-name-main{
+    
+    font-size: 26px;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.single-tour-name-price{
+    margin-left: 10px;
+    font-size: 24px;
+    display: flex;
+    
+    color: #3FD0D4;
+    white-space: nowrap;
+    
+}
+.simple-text{
+    color: black;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.single-tour-desc{
+    padding: 40px;
+    padding-top: 0px;
+    width: 80%;
+    text-align: justify;
+    
+}

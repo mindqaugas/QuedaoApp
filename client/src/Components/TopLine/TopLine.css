@@ -1,0 +1,247 @@
+.top-line-general{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.contacts-left{
+    display: flex;
+    
+    height: 100%;
+    width: 650px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px 0px 25px;
+}
+.contacts-item{
+    display:flex;
+  
+    align-items: center;
+    color: white;
+    padding: 0px 5px 0px 0px;
+    font-size: 14px;
+   
+    
+}
+.icon-style{
+    width: 32px;
+    color:#3FD0D4;
+    
+}
+.socials-right{
+    display: flex;
+    width: 100px;
+    margin-left: auto;
+    height: 100%;
+   justify-content: center;
+   
+    align-items: center;
+    
+}
+
+.socials-icon{
+    display: flex;
+    margin-right: 10px;
+    width: 15px;
+
+}
+.socials-icon-youtube{
+    display: flex;
+    text-align: right;
+    margin-right: 10px;
+    width: 20px;
+}
+.languages-right{
+    display: flex;
+    background-color: #29b3b7;
+    height: 100%;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+
+    
+}
+.account-right{
+    display: flex;
+    background-color: #3FD0D4;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.account-right:hover{
+    cursor: pointer;
+
+
+}
+.account-icon{
+    width: 25px;
+}
+.account-modal{
+    position: fixed;
+    display: flex;
+    width: 100%; 
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    
+}
+.account-modal-off{
+    display: none;
+    
+}
+.outer-account{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    margin-left:-160px;
+    margin-top: -450px; 
+    width: 320px;
+    height: 900px;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999999;
+}
+.outer-account-off{
+    display: none;
+}
+.inner-account{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:-160px;
+    margin-top:-250px; */
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 600px;
+    
+    background-color: rgba(63, 208, 212, 1);
+    z-index: 9999999999;
+}
+.inner-account-off{
+    display: none;
+}
+
+
+.buttons-div{
+ display: flex;
+ width: 100%;
+ height:70px;
+ background-color: #29B3B7;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex : 1;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+
+
+}
+
+.login{
+    
+    background-color: #3FD0D4;
+    
+}
+.register{
+   
+    background-color: #3FD0D4;
+}
+
+.login-heading{
+    width: 320px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading-1{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 40px;
+   margin-top: 15px;
+   color: white;
+}
+
+.heading-2{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+.login-fields{
+    width: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    width: 240px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+
+}
+
+.register-fields{
+    width: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.register-btn{
+    width: 240px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+
+}
+
+.register-btn:focus{
+outline: none;
+}
+.text-field{
+    text-indent: 20px;
+ width: 240px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ height: 50px;
+ background: rgba(255,255,255, 0.5);
+ border: none;
+ color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+.text-field:focus{
+   outline: none;
+   }

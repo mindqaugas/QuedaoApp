@@ -1,0 +1,50 @@
+.slider-general{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: calc(85vh - 130px);
+    
+   
+}
+.slider-image{
+    display: flex;
+    width: 100%;
+    height: calc(85vh - 130px);
+    object-fit: cover;
+    transform: scale(1.05, 1.05);
+    transition: 1.5s;
+}
+.slider-image-off{
+    display: flex;
+    width: 100%;
+    height: calc(85vh - 130px);
+    object-fit: cover;
+    transform: scale(1, 1);
+    transition: 1.5s;
+}
+.caption-head{
+
+}
+.heading-head{
+    position: relative;
+    justify-content: center;
+align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.heading-head-top{
+    position:absolute;
+  top: -15px; bottom: 0px; left: 0; right: 0;
+  
+    font-size: 40px;
+justify-content: center;
+align-items: center;    
+}
+
+
+.heading-sub-head{
+    justify-content: center;
+    align-items: center;
+}
